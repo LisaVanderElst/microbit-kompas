@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="U+RavpLP#Ih(N!p+DvP+">graden</variable></variables><block type="device_forever" id="20$V?4zuV^P/3DHt4/-0" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="5*3FqfG$EEyH5G2}:}zJ"><field name="VAR" id="U+RavpLP#Ih(N!p+DvP+">graden</field><value name="VALUE"><shadow type="math_number" id="BQoglxn%*19enDRz:6@t"><field name="NUM">0</field></shadow><block type="device_heading" id="/_k1O%GIaD5uFR60w!g|"></block></value><next><block type="controls_if" id="she_1G.AJ![Y:Pm2Zc+M"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id=":@ueO+AjVik{n,:SsJk@"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="VB]nR-^u0,K7qVh)2`m4"><field name="OP">OR</field><value name="A"><block type="logic_compare" id="}rBX-Q#0M:{iN=I:NokN"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="SQj?UnEe[y[^674CQ!7U"><field name="NUM">0</field></shadow><block type="variables_get" id="}xj)m5P={@8s$YoH5^ha"><field name="VAR" id="U+RavpLP#Ih(N!p+DvP+">graden</field></block></value><value name="B"><shadow type="math_number" id=",GDyue{SLox$(gUZuDSB"><field name="NUM">45</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="S[LoA$?CoC9dBtlW6)QB"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="-SYnpr;N06;wL$xji]VW"><field name="NUM">0</field></shadow><block type="variables_get" id="Qf@Hh*~$*JwAG-nHSl^A"><field name="VAR" id="U+RavpLP#Ih(N!p+DvP+">graden</field></block></value><value name="B"><shadow type="math_number" id=")R7?IVCdneuZDx*/l3F8"><field name="NUM">315</field></shadow></value></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="Ym3e.q=k+OBWLWtDI*w_"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="[xUYc4:PnRnZ_,x)uIO!"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="EM.V3*@X[LwsB86i2g^-"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="9#cx28}!B:A*9#A.}4Sc"><field name="NUM">0</field></shadow><block type="variables_get" id="f^2WbB`_CiJH%v1Whc(["><field name="VAR" id="U+RavpLP#Ih(N!p+DvP+">graden</field></block></value><value name="B"><shadow type="math_number" id="tzYD]HWPRTt$loxX]gbM"><field name="NUM">135</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="pBYAgTXd!,TH1M+dYx:o"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement><value name="IF2"><shadow type="logic_boolean" id="Ks4/An@G]Id1zxRb|V]W"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="pPNxGSh0J(xbI+P[IjBO"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="[pjInYx[#2XBiLCYZ6B="><field name="NUM">0</field></shadow><block type="variables_get" id="t~nSWw}P.~LnmuwYwP7a"><field name="VAR" id="U+RavpLP#Ih(N!p+DvP+">graden</field></block></value><value name="B"><shadow type="math_number" id="r#w}a$LuCd)c9y!A?.[x"><field name="NUM">225</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="4A@#tE}}Itgp).`rv-/~"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="3w|EH;wHE55RUo/#E}se"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement></block></next></block></statement></block></xml>
